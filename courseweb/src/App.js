@@ -2,13 +2,18 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Button,ButtonToolbar } from 'react-bootstrap';
+import Navbarjsx from "./IT17152938/JSX/Navbarjsx";
+import ImageSlide from "./IT17152938/JSX/ImageSlide";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App" >
 
-        <header className="App-header">
+        <Navbarjsx/>
+        <ImageSlide/>
+
+       {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
@@ -32,7 +37,7 @@ class App extends Component {
           <Button variant="light">Light</Button>
           <Button variant="dark">Dark</Button>
           <Button variant="link">Link</Button>
-        </ButtonToolbar>;
+        </ButtonToolbar>;*/}
       </div>
     );
   }
