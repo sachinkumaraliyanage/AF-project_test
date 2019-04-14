@@ -30,13 +30,16 @@ export default class Navbarjsx extends Component {
                         </NavDropdown>
                     </Nav>
                     <Form inline>
-                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-primary">Search</Button>
+                        <FormControl type="text" placeholder="User Name" className="mr-sm-2" />
+                        <FormControl type="password" placeholder="Password" className="mr-sm-2" />
+                        <Button variant="outline-primary">LOGIN</Button>
                     </Form>
                 </Navbar>
             </div>
         );
     }
+
+
 }
 
 

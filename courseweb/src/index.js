@@ -12,4 +12,5 @@ ReactDOM.render(<App />, document.getElementById('root'));
 
 //npm install --save react-router-dom
 // npm install --save react-bootstrap bootstrap
+//npm install mdbreact
 serviceWorker.unregister();

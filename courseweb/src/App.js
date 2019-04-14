@@ -4,6 +4,8 @@ import './App.css';
 import { Button,ButtonToolbar } from 'react-bootstrap';
 import Navbarjsx from "./IT17152938/JSX/Navbarjsx";
 import ImageSlide from "./IT17152938/JSX/ImageSlide";
+import Detailsindexjs from "./IT17152938/JSX/Detailsindexjs";
+import Footer from "./IT17152938/JSX/Footer";
 
 class App extends Component {
   render() {
@@ -12,6 +14,8 @@ class App extends Component {
 
         <Navbarjsx/>
         <ImageSlide/>
+        <Detailsindexjs/>
+        <Footer/>
 
        {/* <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
